@@ -1,0 +1,445 @@
+{
+  "p01": {
+    "brand": "فیلیپس",
+    "category": "fry",
+    "color": "مشکی",
+    "features": [
+      "توان مصرفی 1400 وات",
+      "6 برنامه پخت تنظیم شده",
+      "کاسه بزرگ به ظرفیت 3 لیتر",
+      "تایمر 60 دقیقه ای با زنگ اتمام پخت"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/877f451b0473f25e77266ed7cefe90450c354035_1630311086.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/be0838553adc7c2094c13ef32cc4382daf4fbcfd_1630311187.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/d80d1d937d9210c6abee369dd7a3f92d2f88ff26_1630311216.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/911e57b5a4cd1a86bfb8935cc44e87e17faae65e_1630310917.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+    "name": "سرخ کن فیلیپس",
+    "price": "۳,۶۰۰,۰۰۰ "
+  },
+  "p02": {
+    "brand": "ایکس-ویژن",
+    "category": "tv",
+    "color": "مشکی مات",
+    "features": [
+      "   دارای پنل IPS",
+      " تکنولوژی صفحه: LED",
+      " قابلیت اتصال به اینترنت : دارد",
+      " کیفیت تصویر : 4K"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/5f2599fb24a5c02d85b805a841624c6d318df908_1652528570.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/a4c658159db77cc490d6f84cb6abc413d749d6f8_1652528571.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/408ba678b0ca26fa89d6304eedbf58695ffd119d_1652528556.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/f9f6420c310fc9746a63d6b49dd1b07e8749ac96_1667220504.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "تلویزیون ال ای دی هوشمند ایکس ویژن",
+    "offPrice": "۱۵,۹۳۰,۰۰۰",
+    "price": "۱۴,۱۰۰,۰۰۰"
+  },
+  "p03": {
+    "brand": "ویداس",
+    "category": "coffee-maker",
+    "color": "مشکی",
+    "features": [
+      "       تعداد نازل: دو عدد",
+      "    توان مصرفی: 1450 وات",
+      "   امکان تولید کف شیر: دارد",
+      "    جنس بدنه: استیل ضد زنگ"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/79384f62ade31196d0f76b3a9c7f9b57905d20ea_1641811585.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/e9aed8674b22800bbf8e94eda24bf6de9f92963b_1641899858.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/baaee5bbd31b8246aee3d9685af8d86facfb8cf5_1641811584.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "قهوه ساز ویداس",
+    "price": "۵۳۰,۰۰۰"
+  },
+  "p04": {
+    "brand": "اسنوا",
+    "category": "wash-machine",
+    "color": "خاکستری",
+    "features": [
+      " ظرفیت 7 کیلوگرم",
+      " دارای رده ی انرژی +++A",
+      " سرعت چرخش موتور 1200 دور",
+      " موتور پیشرفته Direct Drive Inverter"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/5dc8ba44672568f85182e5f602ac469003111fec_1652008099.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/78cd4ec8b8c79620f213ef40346b7b2af71a252e_1652008104.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/b095448695d859b40f4fa60ae733fe03edfde3c7_1652008105.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/7db910b4f454fcd2526ee10e72153ec889c52586_1652008101.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "ماشین لباسشویی اسنوا",
+    "price": "12,400,000"
+  },
+  "p05": {
+    "brand": "پاکشوما",
+    "category": "dish-washer",
+    "color": "نقره ای",
+    "features": [
+      " رده انرژی ++A",
+      "    سیستم شستشوی تاخیری",
+      "  سیستم عیب یابی هوشمند",
+      "    تعداد برنامه شستشو 7 عدد"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/b1f36c904d5ccdd0dc25d5187090596c15d43011_1652077036.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/48ddbce065f4df7ec4b4ff9d0d788fd5c84bc9b9_1652077038.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/48ddbce065f4df7ec4b4ff9d0d788fd5c84bc9b9_1652077032.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "ماشین ظرفشویی پاکشوما",
+    "offPrice": "۱۸,۹۰۶,۰۰۰",
+    "price": "۱۶,۹۹۰,۰۰۰"
+  },
+  "p06": {
+    "brand": "پاناسونیک",
+    "category": "microwave",
+    "color": "نقره ای",
+    "features": [
+      "    ظرفیت: 42 لیتر",
+      "     تایمر پخت: دارد",
+      "      عملکرد یخ زدایی: دارد",
+      "    قابلیت پخت گریل و ترکیبی: دارد"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/3961786.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/3961787.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/3961789.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/3961754.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "ماکروویو پاناسونیک",
+    "offPrice": "5,100,000",
+    "price": "۴,۴۲۰,۰۰۰"
+  },
+  "p07": {
+    "brand": "دلونگی",
+    "category": "coffee-maker",
+    "color": "استیل",
+    "features": [
+      "       تعداد نازل: دو عدد",
+      "    توان مصرفی: 1450 وات",
+      "   امکان تولید کف شیر: دارد",
+      "    جنس بدنه: استیل ضد زنگ"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/3cc0cc631d3996f59c15514b82389621975b9c26_1609323621.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/8b1c50b2541f49175a1f82d81204c4e4997de6f8_1609323634.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/50838088a1bcd0260d6d9930b42e1b99d2258eeb_1609323648.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/13b7d5419535ad2006adf4c4c0b867de1449cdef_1609323605.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "اسپرسو ساز دلونگی",
+    "price": "۸,۳۲۴,۰۰۰"
+  },
+  "p09": {
+    "brand": "فیلیپس",
+    "category": "fry",
+    "color": "مشکی",
+    "features": [
+      "توان مصرفی 1400 وات",
+      "6 برنامه پخت تنظیم شده",
+      "کاسه بزرگ به ظرفیت 3 لیتر",
+      "تایمر 60 دقیقه ای با زنگ اتمام پخت"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/203f915fa282abc3c740772428a17b41d99debd1_1655277430.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/72b19a2aa8fb64b02931e004b15aedb1ecab665d_1655277459.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/be156ffa57c5c71e06c2c95bb7f1d89e61c0b8ea_1655277460.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/99d35a9d40bb67bea6eccc0b66cd4cd153a4d55f_1655277458.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "سرخ کن بدون روغن فیلیپس",
+    "offPrice": "5,900,000",
+    "price": "۳,۴۰۰,۰۰۰"
+  },
+  "p10": {
+    "brand": "مایدیا",
+    "category": "dish-washer",
+    "color": "نقره ای",
+    "features": [
+      " رده انرژی ++A",
+      "    سیستم شستشوی تاخیری",
+      "  سیستم عیب یابی هوشمند",
+      "    تعداد برنامه شستشو 7 عدد"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/82543fcd02219283ded2bcbb883f375d33a5b709_1596610511.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/02680e346dbebc8e7ee94310ae8fb0f965c794bb_1661261163.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/e627ebd8e3dc53d595517d73568705588eb7a433_1596610505.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "ماشین ظرفشویی رومیزی مایدیا",
+    "price": "۱۰,۵۹۰,۰۰۰"
+  },
+  "p11": {
+    "brand": "بوش",
+    "category": "vacuum",
+    "color": "مشکی - طلایی",
+    "features": [
+      "  طول سیم: 8 متر",
+      " جنس لوله: پلاستیکی",
+      " نوع جاروبرقی: کیسه دار",
+      "   توان مصرفی : 2100 وات"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/3447119.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/3447120.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/3447122.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/3456182.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "جاروبرقی بوش ",
+    "offPrice": "7,980,000",
+    "price": "۶,۳۷۰,۰۰۰"
+  },
+  "p12": {
+    "brand": "ایکس-ویژن",
+    "category": "wash-machine",
+    "color": "خاکستری",
+    "features": [
+      " ظرفیت 7 کیلوگرم",
+      " دارای رده ی انرژی +++A",
+      " سرعت چرخش موتور 1200 دور",
+      " موتور پیشرفته Direct Drive Inverter"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/b317bab58b802e25593e8005bfaa0b47ce71e154_1609961681.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/501f8ffe5fe97bbe0017dbc73dbd34733becb49e_1638862385.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/6682e0fc949d566b78a1fa18a40951668a35c7af_1668944619.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/eb7a7b86778f9e9f8d1e3c4f696710de1799d185_1609960208.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "ماشین لباسشویی ایکس ویژن",
+    "offPrice": "11,850,000",
+    "price": "۱۰,۲۳۰,۰۰۰"
+  },
+  "p13": {
+    "brand": "سونی",
+    "category": "tv",
+    "color": "خاکسنری مات",
+    "features": [
+      "   دارای پنل IPS",
+      " تکنولوژی صفحه: LED",
+      " قابلیت اتصال به اینترنت : دارد",
+      " کیفیت تصویر : 4K"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/f73f44f4dbe80ee5a4c1f1541dbab805676bacff_1644233125.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/46ed863d984da269cfa74a706d10503466a6ebe7_1644233126.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/f25ba77b7d2e6453b5519a07dfb8e610d07c2aba_1667220755.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "تلویزیون ال ای دی هوشمند سونی",
+    "price": "۴۶,۹۰۰,۰۰۰"
+  },
+  "p14": {
+    "brand": "بلک اند دکر",
+    "category": "sandwich-maker",
+    "color": "مشکی",
+    "features": [
+      " تعداد خانه:چهار عدد",
+      " نشانگر LED:دارد",
+      "  قابلیت قرارگیری عمودی:دارد",
+      "   صفحات جداشونده:دارد"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/116900646.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/116900686.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/116900702.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/116900721.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "ساندویچ ساز بلک اند دکر",
+    "offPrice": "2,720,000",
+    "price": "۱,۹۱۸,۲۰۰"
+  },
+  "p15": {
+    "brand": "دوو",
+    "category": "vacuum",
+    "color": "مشکی - قرمز",
+    "features": [
+      "  طول سیم: 8 متر",
+      " جنس لوله: پلاستیکی",
+      " نوع جاروبرقی: کیسه دار",
+      "   توان مصرفی : 2100 وات"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/f2b779132c5365d2a501767dad6a162dc1831460_1618851409.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/4acecfa016aabb8fffe9115a4639ada8ad256db1_1618851421.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/e7534e9039fa164aa183e564878e273f06c24308_1620042655.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/d2c0222773b7688dc61df83b41995afc490e5fa7_1618851421.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "جاروبرقی دوو",
+    "price": "۴,۴۰۰,۰۰۰"
+  },
+  "p16": {
+    "brand": "اسنوا",
+    "category": "tv",
+    "color": "مشکی مات",
+    "features": [
+      "   دارای پنل IPS",
+      " تکنولوژی صفحه: LED",
+      " قابلیت اتصال به اینترنت : دارد",
+      " کیفیت تصویر : 4K"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/944af40658f05090e6dfbe50cd20b0fbcf4c6c59_1606285956.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/c095ac17cb11187c08b79e897cccb4f64d65c488_1606285954.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/5def4f7e01888e4574e642c70a4da482c7d33945_1606285955.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/a00def62aa04efcf9fa858ae8a9dedfcac70648d_1667291216.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "تلوزیون ال ای دی هوشمند اسنوا",
+    "price": "۱۲,۷۹۵,۰۰۰"
+  },
+  "p17": {
+    "brand": "دوو",
+    "category": "tv",
+    "color": "مشکی",
+    "features": [
+      "   دارای پنل IPS",
+      " تکنولوژی صفحه: LED",
+      " قابلیت اتصال به اینترنت : دارد",
+      " کیفیت تصویر : 4K"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/70d96459dbaebf278ba0a176ca152abc9833a5d1_1641882384.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/88fe4867efb11c0dff2436533548df5929c58ccd_1641882386.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/984f2e309c3f03ba009f31d1a3ae65a520333d35_1641882387.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/183ce302c97aca26d8c52877db8fba6f804574ac_1667219957.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "تلویزیون ال ای دی دوو",
+    "offPrice": "۱۴,۱۰۰,۰۰۰",
+    "price": "۱۳,۵۷۰,۰۰۰"
+  },
+  "p18": {
+    "brand": "بوش",
+    "category": "vacuum",
+    "color": "خاکستری",
+    "features": [
+      "  طول سیم: 8 متر",
+      " جنس لوله: پلاستیکی",
+      " نوع جاروبرقی: کیسه دار",
+      "   توان مصرفی : 2100 وات"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/27245008ee81d766494ddaa44495cd0a533ec35e_1651487053.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/c0b933e7391d25797677131c5d60d538d75569e2_1651487054.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/8d2ccba0fc9bf519182e7ed55b04623e56d12307_1651487057.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/2464056.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "جارو برقی بوش",
+    "offPrice": "8,500,000",
+    "price": "۷,۹۳۵,۰۰۰"
+  },
+  "p19": {
+    "brand": "فیلیپس",
+    "category": "fry",
+    "color": "مشکی",
+    "features": [
+      "توان مصرفی 1400 وات",
+      "6 برنامه پخت تنظیم شده",
+      "کاسه بزرگ به ظرفیت 3 لیتر",
+      "تایمر 60 دقیقه ای با زنگ اتمام پخت"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/05d65911fe7ff06521fa45a54644bba9960c3cca_1654673194.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/4f4cdd39460bf1b054b2ced4833eae3838099b7c_1654673316.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/fda6999c0b925e08f940eee94dfed97f2623771f_1654673319.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/3e990417aea4479f1dbd6969e5cc9a3ff610778a_1654673188.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "سرخ کن بدون روغن فیلیپس",
+    "price": "۱۴,۶۲۵,۰۰۰"
+  },
+  "p20": {
+    "brand": "هیمالیا",
+    "category": "Refrigerator",
+    "color": "آبی",
+    "features": [
+      "  برچسب انرژی : +A",
+      "  دارای آبسردکن",
+      " دارای یخساز اتوماتیک",
+      " دارای سامانه خودکار بسته شدن دربها"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/29acf1e61e2b59313b2c7753d46794d2647543b2_1613295959.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/c7cc301f4df3f069b167a1acaf5d8992bb82b09b_1613295960.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/670deca87bc56930f84f33bf23f6d5a501d68d3b_1613295960.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/e0441a81a788afdacd8cfc2f7e2e0908bd4b2b36_1613295948.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "یخچال و فریزر دوقلو هیمالیا",
+    "offPrice": "29,900,000",
+    "price": "۲۸,۳۴۰,۰۰۰"
+  },
+  "p21": {
+    "brand": "ساید",
+    "category": "Refrigerator",
+    "color": "استیل",
+    "features": [
+      "  برچسب انرژی : +A",
+      "  دارای آبسردکن",
+      " دارای یخساز اتوماتیک",
+      " دارای سامانه خودکار بسته شدن دربها"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/dd01b5a20d158e57d84d6ffb9f163a751c69f86b_1606041891.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/ab5b0fc8a6f644e4b0de3c580bebf6359166acbb_1606041890.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/69dbaea59c4495b6cb0b36b75fba28bc9fd2ce5e_1606041890.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/c5c7a003812ec1d386e2e60e65e550db652f40b1_1606041842.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "یخچال و فریزر ساید بای ساید",
+    "price": "۲۲,۹۰۳,۷۵۰"
+  },
+  "p22": {
+    "brand": "مباشی",
+    "category": "coffee-maker",
+    "color": "مشکی",
+    "features": [
+      "       تعداد نازل: دو عدد",
+      "    توان مصرفی: 1450 وات",
+      "   امکان تولید کف شیر: دارد",
+      "    جنس بدنه: استیل ضد زنگ"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/9bf4092b2681d0cd01ee6b703434110021541694_1656327452.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/2a4c5c04228784f19b1fe72dc090c84a7a7f0398_1656327455.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/c4687c67ed3e9d28686bdc3a79dea8e005295eb9_1656327456.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/113034397.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "اسپرسو ساز مباشی",
+    "price": "۳,۴۱۹,۷۳۰"
+  },
+  "p23": {
+    "brand": "تی سی ال",
+    "category": "tv",
+    "color": "خاکستری مات",
+    "features": [
+      "   دارای پنل IPS",
+      " تکنولوژی صفحه: LED",
+      " قابلیت اتصال به اینترنت : دارد",
+      " کیفیت تصویر : 4K"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/c00d183f5145091e573fb9e5e3ea54c648810749_1663156996.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/e41860b37bf86b6f9c2beea40ee265fd406ae87e_1663156998.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/a0c691ef4eb00503a478e16df07634fced9dcedc_1663156999.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/2b5e58277f7897fb0bbe53d48e1f7b59009bb1d3_1667223191.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "تلوزیون ال ای دی تی سی ال ",
+    "price": "۷,۱۰۰,۰۰۰"
+  },
+  "p24": {
+    "brand": "پارس خزر",
+    "category": "vacuum",
+    "color": "مشکی",
+    "features": [
+      "  طول سیم: 8 متر",
+      " جنس لوله: پلاستیکی",
+      " نوع جاروبرقی: کیسه دار",
+      "   توان مصرفی : 2100 وات"
+    ],
+    "gallery": [
+      "https://dkstatics-public.digikala.com/digikala-products/101194.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/101207.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "https://dkstatics-public.digikala.com/digikala-products/101225.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    ],
+    "image": "https://dkstatics-public.digikala.com/digikala-products/101155.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "name": "جارو برقی پارس خزر",
+    "price": "۳,۲۸۰,۰۰۰"
+  }
+}
