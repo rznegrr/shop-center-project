@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "yekan";
+  src: url("../font/iranyekanwebregularfanum.woff") format("woff");
+}
+
+body {
+  direction: rtl;
+  margin: 0;
+}
+
+body,
+input,
+button {
+  font-family: "yekan";
+}
+
+.icon {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  margin: auto;
+  width: 87%;
+}
+
+li{
+  cursor: pointer;
+  transition: all ease-in-out 3s;
+}
+
+li:hover{
+  color: #616DA7;
+}
