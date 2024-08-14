@@ -1,16 +1,25 @@
+import { useState } from "react";
+
 import Account from "../../public/icons/account";
 import ShoppingCartIcon from "../../public/icons/shopping-icon";
 import Input from "../UI/input";
 import Hug from "../../public/icons/hug";
-// import ShoppingCart from "../../public/icons/shop-icon/shopping-cart";
+import MobileMenu from "../mobile-menu/MobileMenu";
+import Navigation from "./Navigation";
 
 function Header() {
-  const openMobileMenuHandler = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
 
-  }
+  const openMobileMenuHandler = () => {
+    setToggleMenu(true);
+  };
+
+  const closeMobileMenuHandler = () => {
+    setToggleMenu(false);
+  };
 
   return (
-    <div className="flex container justify-between items-center py-4">
+    <div className="flex container justify-between items-center py-4 h-20 md:h-24">
       <div className="hidden lg:flex gap-x-6">
         <Account />
         <ShoppingCartIcon />
@@ -22,6 +31,8 @@ function Header() {
         <Hug onClick={openMobileMenuHandler} />
       </div>
       <img src="./site-logo.svg" alt="site-logo" className="h-16 w-32" />
+
+      {toggleMenu && <MobileMenu onClick={closeMobileMenuHandler} />}
     </div>
   );
 }

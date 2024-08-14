@@ -28,39 +28,31 @@ export default function Hero() {
         modules={[Autoplay, Pagination]}
       >
         <SwiperSlide>
-          <Image
+          <img
             src="/images/sofa.webp"
-            height={300}
-            width={1200}
             alt="sofa image slider"
-            className="rounded-2xl m-auto h-[150px] md:h-[250px] lg:h-[370px]"
+            className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[370px]"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
+          <img
             src="/images/refrigerator.webp"
-            height={350}
-            width={1200}
             alt="refrigrator image slider"
-            className="rounded-2xl m-auto h-[150px] md:h-[250px] lg:h-[370px]"
+            className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[370px]"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
+          <img
             src="/images/washing-machine.webp"
-            height={350}
-            width={1200}
             alt="washing-machine image slider"
-            className="rounded-2xl m-auto h-[150px] md:h-[250px] lg:h-[370px]"
+            className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[370px]"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
+          <img
             src="/images/steamer.webp"
-            height={350}
-            width={1200}
             alt="steamer image slider"
-            className="rounded-2xl m-auto h-[150px] md:h-[250px] lg:h-[370px]"
+            className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[370px]"
           />
         </SwiperSlide>
       </Swiper>

@@ -19,11 +19,11 @@ function TopHeader() {
         </div>
         <div className="flex items-center gap-x-9">
           <div className="flex justify-center items-center">
-            <p className="ml-2 text-sm">0934429898</p>
+            <p className="ml-2 text-xs lg:text-sm">0934429898</p>
             <FiPhoneCall />
           </div>
           <div className="flex items-center">
-            <p className="ml-2 text-sm ">sales@yourstorename.com</p>
+            <p className="ml-2 text-xs lg:text-sm">sales@yourstorename.com</p>
             <FaEnvelope className="icon" />
           </div>
         </div>
