@@ -51,3 +51,14 @@ button {
 .active{
   color: #616da7;
 }
+
+.label{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #67BCEE;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 0 12px ;
+  font-size: 12px;
+}

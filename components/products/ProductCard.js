@@ -4,10 +4,11 @@ import { SlBasket } from "react-icons/sl";
 import Button from "../UI/button";
 
 function ProductCard(props) {
-  const { brand, image, name, price, offPrice } = props.items;
+  const { brand, image, name, price, offPrice, mark } = props.items;
 
   return (
     <>
+      {/* <span className='label'>{mark}</span> */}
       <img
         src={image}
         alt="product picture"
@@ -44,7 +45,6 @@ function ProductCard(props) {
             </p>
           </div>
         </div>
-
       </div>
     </>
   );
