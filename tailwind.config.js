@@ -11,12 +11,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'info' : '#616DA7',
-        'info200' : '#A4AFE5',
-        'info800' : '#7C87C1',
-        'light-turquoise' : '#F0FEFF'
+        info: "#616DA7",
+        info100: "#DEE4FF",
+        info200: "#A4AFE5",
+        info800: "#7C87C1",
+        gray200: "#ADADAD",
+      },
+      fontSize: {
+        "2xs": "10px",
       },
     },
+    plugins: [],
   },
-  plugins: [],
-}
+};
