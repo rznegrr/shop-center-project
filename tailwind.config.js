@@ -11,10 +11,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'Mgray': '#4b5563',
         'info' : '#616DA7',
         'info200' : '#A4AFE5',
-        'info800' : '#7C87C1'
+        'info800' : '#7C87C1',
+        'light-turquoise' : '#F0FEFF'
       },
     },
   },
