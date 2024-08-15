@@ -4,7 +4,7 @@ import CategoryTitle from "../UI/category-title";
 
 function Category() {
   return (
-    <div className="container">
+    <div className="container pt-5">
       <CategoryTitle title="خرید بر اساس دسته بندی" />
       <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8 gap-x-4 gap-y-4 place-items-center">
         <CategoryCard
