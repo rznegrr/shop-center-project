@@ -5,17 +5,19 @@ import Category from "../components/category/Category";
 import Banner from "../components/banner/Banner";
 import ProductList from "../components/products/ProductsList";
 import Brands from "../components/brands/Brands";
+import Feature from "../components/our-feature/Feature";
 
 export default function MainPage() {
   return (
     <div>
       <HeadTitle title="صفحه اصلی" />
       <MainLayout>
-        <Hero />
+        {/* <Hero /> */}
         <Category />
         <Banner />
         <ProductList />
-        <Brands/>
+        {/* <Brands/> */}
+        <Feature/>
       </MainLayout>
     </div>
   );

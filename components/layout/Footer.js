@@ -7,17 +7,17 @@ import {
 
 function Footer() {
   return (
-    <div className="lg:h-[33rem] bg-info">
+    <div className="lg:h-[33rem] bg-info mt-10">
       <div className="container">
-        <div className="flex flex-col justify-center items-center pt-5 md:pt-10">
-          <p className="text-md sm:text-3xl text-[#ebebeb]">
+        <div className="flex flex-col justify-center items-center">
+          <p className="text-md sm:text-3xl text-[#ebebeb] py-5 md:py-10">
             فروشگاه لوازم خانگی شاپ سنتر
           </p>
-          <span className="w-full border-b-2 border-gray-100/20 pt-5 md:mt-10"></span>
+          <span className="w-full border-b-2 border-gray-100/20"></span>
         </div>
 
         <div className="grid grid-cols-12 py-7 xl:px-20 gap-x-4 footer">
-          <div className="col-span-6 lg:col-span-3 flex flex-col gap-y-4 text-[#ebebeb] mt-10">
+          <div className="col-span-6 lg:col-span-3 flex flex-col gap-y-4 text-[#ebebeb] md:mt-10">
             <h2>اطلاعات تماس</h2>
             <span className="w-10 border-b-2 border-gray-300 my-3"></span>
             <p className="text-[12px] sm:text-[16px] w-32 sm:w-72 lg:w-60 leading-relaxed">
@@ -38,7 +38,7 @@ function Footer() {
               <p>ایمیل : sales@storename.com</p>
             </div>
           </div>
-          <div className="col-span-6 lg:col-span-3 flex flex-col gap-y-4 mt-10">
+          <div className="col-span-6 lg:col-span-3 flex flex-col gap-y-4 md:mt-10">
             <h2>حساب کاربری</h2>
             <span className="w-10 border-b-2 border-gray-300 my-2"></span>
             <li>پروفایل</li>
