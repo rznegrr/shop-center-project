@@ -3,8 +3,8 @@ import HeadTitle from "../components/UI/headTitle";
 import Hero from "../components/hero/Hero";
 import Category from "../components/category/Category";
 import Banner from "../components/banner/Banner";
-import ProductCard from "../components/products/ProductCard";
 import ProductList from "../components/products/ProductsList";
+import Brands from "../components/brands/Brands";
 
 export default function MainPage() {
   return (
@@ -15,6 +15,7 @@ export default function MainPage() {
         <Category />
         <Banner />
         <ProductList />
+        <Brands/>
       </MainLayout>
     </div>
   );

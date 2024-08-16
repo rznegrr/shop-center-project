@@ -28,35 +28,35 @@ export default function Hero() {
       >
         <SwiperSlide>
           <img
-            src="/images/sofa.webp"
+            src="./images/sofa.webp"
             alt="sofa image slider"
             className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[350px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/images/refrigerator.webp"
+            src="./images/refrigerator.webp"
             alt="refrigrator image slider"
             className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[350px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/images/washing-machine.webp"
+            src="./images/washing-machine.webp"
             alt="washing-machine image slider"
             className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[350px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/images/steamer.webp"
+            src="./images/steamer.webp"
             alt="steamer image slider"
             className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[350px]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/images/slider4.webp"
+            src="./images/slider4.webp"
             alt="steamer image slider"
             className="rounded-2xl m-auto h-[130px] md:h-[250px] lg:h-[350px]"
           />
