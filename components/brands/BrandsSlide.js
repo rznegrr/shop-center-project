@@ -44,7 +44,7 @@ export default function BrandSlide() {
         <SwiperSlide>
           <img
             src={'./images/bosch.webp'}
-            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer"
+            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer border-x"
             alt="bosch"
           />
         </SwiperSlide>
@@ -58,7 +58,7 @@ export default function BrandSlide() {
         <SwiperSlide>
           <img
             src={'./images/lg.jpg'}
-            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer"
+            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer border-x"
             alt="lg"
           />
         </SwiperSlide>
@@ -72,7 +72,7 @@ export default function BrandSlide() {
         <SwiperSlide>
           <img
             src={'./images/snowa.webp'}
-            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer"
+            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer border-x"
             alt="snowa"
           />
         </SwiperSlide>
@@ -86,7 +86,7 @@ export default function BrandSlide() {
         <SwiperSlide>
           <img
             src={'./images/sony.jpg'}
-            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer"
+            className="w-20 mt-1 md:mt-0 md:w-36 xl:w-44 h-auto rounded-xl cursor-pointer border-x"
             alt="sony"
           />
         </SwiperSlide>
