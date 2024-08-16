@@ -10,11 +10,12 @@ export default function MainPage() {
   return (
     <div>
       <HeadTitle title="صفحه اصلی" />
-      <MainLayout />
-      <Hero />
-      <Category />
-      <Banner />
-      <ProductList />
+      <MainLayout>
+        <Hero />
+        <Category />
+        <Banner />
+        <ProductList />
+      </MainLayout>
     </div>
   );
 }

@@ -29,12 +29,12 @@ button {
   width: 87%;
 }
 
-.list {
+.list li {
   cursor: pointer;
   transition: all ease-in-out 0.3s;
 }
 
-.list:hover {
+.list li:hover {
   color: #616da7;
 }
 
@@ -48,17 +48,50 @@ button {
   }
 }
 
-.active{
+.active {
   color: #616da7;
 }
 
-.label{
+.label {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #67BCEE;
+  background-color: #67bcee;
   color: #ffffff;
   padding: 5px 10px;
-  border-radius: 0 12px ;
+  border-radius: 0 12px;
   font-size: 12px;
+}
+
+.footer h2 {
+  font-size: 20px;
+  color: #ebebeb;
+  font-weight: bold;
+}
+
+.footer li {
+  color: #ebebeb;
+  transition: all 0.1s ease-in;
+}
+
+.footer li:hover {
+  color: #252c4f;
+  cursor: pointer;
+}
+
+/* .footer li::before {
+  font-family: 'Font Awesome 5';
+  content: "\f104";
+  font-size: 17px;
+  padding-left: 10px;
+} */
+
+@media only screen and (max-width: 620px) {
+  .footer h2 {
+    font-size: 14px;
+  }
+
+  .footer li {
+    font-size: 12px;
+  }
 }
