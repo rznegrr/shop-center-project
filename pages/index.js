@@ -10,6 +10,7 @@ import Blogs from "../components/blog/Blogs";
 import CategoryTitle from "../components/UI/category-title";
 import ProductCard from "../components/products/ProductCard";
 import Article from "../components/article/Article";
+import ProductSlider from "../components/products/ProductSlider";
 
 export default function MainPage() {
   return (
@@ -22,19 +23,21 @@ export default function MainPage() {
         <CategoryTitle title="محبوب ترین محصولات" />
         <ProductList component={<ProductCard />} />
         <Brands />
-        <Blogs />
-        <div className="container grid grid-cols-4 place-items-center gap-x-10">
-          <Article title="محبوب ترین محصولات" />
-          <Article title="پرفروش ترین محصولات" />
-          <Article title="محصولات جدید" />
-          <Article title="محصولات پربازدید" />
+        <div className="container grid grid-cols-4 place-items-center gap-x-10 pt-10">
+          <Article title="محصولات جدید" start={10} end={13} />
+          <Article title="پرفروش ترین محصولات" start={15} end={18} />
+          <Article title="محصولات پربازدید" start={19} end={22} />
+          <Article title="محبوب ترین محصولات" start={6} end={9} />
         </div>
+        <Blogs />
         <div className="container pt-10">
           <img
             src="./images/slider04.webp"
             className="m-auto h-[130px] md:h-[250px] lg:h-[350px] rounded-2xl"
           />
         </div>
+        <CategoryTitle title="محصولات پیشنهادی" />
+        <ProductSlider />
         <Feature />
       </MainLayout>
     </div>

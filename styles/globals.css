@@ -79,19 +79,13 @@ button {
   cursor: pointer;
 }
 
-/* .footer li::before {
-  font-family: 'Font Awesome 5';
-  content: "\f104";
-  font-size: 17px;
-  padding-left: 10px;
-} */
+.productSwiper{
+  width: 87%;
+  height: 285px;
+}
 
-@media only screen and (max-width: 620px) {
-  .footer h2 {
-    font-size: 14px;
-  }
-
-  .footer li {
-    font-size: 12px;
+@media only screen and (max-width: 425px){
+  .productSwiper{
+    height: 250px;
   }
 }

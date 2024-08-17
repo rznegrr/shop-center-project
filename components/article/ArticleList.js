@@ -1,9 +1,12 @@
 import React from "react";
-import Products from "../../data/products.json"
+import Products from "../../data/products.json";
 import ArticleItems from "./ArticleItems";
 
-function ArticleList() {
-  const productToShow = Products.slice(0, 3);
+function ArticleList(props) {
+  const startIndex = props.start;
+  const endIndex = props.end;
+  const productToShow = Products.slice(startIndex, endIndex);
+
   return (
     <div>
       <ul className="flex flex-col gap-y-5">
