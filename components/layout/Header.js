@@ -19,7 +19,7 @@ function Header() {
   };
 
   return (
-    <div className="flex container justify-between items-center py-4 h-20 md:h-24">
+    <div className="flex container justify-between items-center py-4 h-20 md:h-24 bg-white">
       <div className="hidden lg:flex gap-x-6">
         <Account />
         <ShoppingCartIcon />

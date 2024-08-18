@@ -23,17 +23,17 @@ export default function MainPage() {
         <CategoryTitle title="محبوب ترین محصولات" />
         <ProductList component={<ProductCard />} />
         <Brands />
-        <div className="container grid grid-cols-4 place-items-center gap-x-10 pt-10">
+        <div className="container grid grid-cols-4 place-items-center gap-x-10 pt-5 md:pt-10">
           <Article title="محصولات جدید" start={10} end={13} />
           <Article title="پرفروش ترین محصولات" start={15} end={18} />
           <Article title="محصولات پربازدید" start={19} end={22} />
           <Article title="محبوب ترین محصولات" start={6} end={9} />
         </div>
         <Blogs />
-        <div className="container pt-10">
+        <div className="container md:pt-10 pb-5">
           <img
             src="./images/slider04.webp"
-            className="m-auto h-[130px] md:h-[250px] lg:h-[350px] rounded-2xl"
+            className="m-auto h-[110px] md:h-[250px] lg:h-[350px] rounded-2xl"
           />
         </div>
         <CategoryTitle title="محصولات پیشنهادی" />

@@ -1,20 +1,46 @@
-import React from 'react'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import React, { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import DropDown from "./DropDown";
 
 function Navigation() {
-  const currentRoute = usePathname()
+  const [toggleDropDown, setToggleDropDown] = useState(false);
+  const currentRoute = usePathname();
+
+  const toggleDropDownHandler = () => {
+    setToggleDropDown(!toggleDropDown);
+  };
+
   return (
-    <div className='lg:flex lg:bg-gray-100/50 mb-6'>
-        <ul className='list container flex flex-col lg:flex-row lg:gap-x-8 justify-center lg:items-center lg:py-4'>
-            <li><Link className={`${currentRoute === '/' ? 'active' : ''}`} href={'/'}>همه</Link></li>
-            <li><Link href={''}>محصولات</Link></li>
-            <li><Link href={''}>وبلاگ</Link></li>
-            <li><Link href={''}>درباره ما</Link></li>
-            <li><Link href={''}>تماس با ما</Link></li>
-        </ul>
+    <div className="lg:flex lg:bg-gray-50 mb-6">
+      <ul className="list container flex flex-col lg:flex-row lg:gap-x-8 justify-center lg:items-center lg:py-4">
+        <li>
+          <Link className={`${currentRoute === "/" ? "active" : ""}`} href={""}>
+            همه
+          </Link>
+        </li>
+        <li
+          className="dropdown"
+        >
+          <Link href={""} onClick={toggleDropDownHandler} className="flex items-center cursor-pointer gap-x-1">
+            محصولات
+            <MdOutlineKeyboardArrowDown />
+          </Link>
+          {toggleDropDown && <DropDown />}
+        </li>
+        <li>
+          <Link href={""}>وبلاگ</Link>
+        </li>
+        <li>
+          <Link href={""}>درباره ما</Link>
+        </li>
+        <li>
+          <Link href={""}>تماس با ما</Link>
+        </li>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;

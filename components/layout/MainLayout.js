@@ -7,14 +7,16 @@ import TopHeader from "./TopHeader";
 function MainLayout({ children }) {
   return (
     <div>
-      <TopHeader />
-      <Header />
-      <div className="hidden lg:block">
-        <Navigation />
+      <div className="">
+        <TopHeader />
+        <Header />
+        <div className="hidden lg:block">
+          <Navigation />
+        </div>
       </div>
       <main>{children}</main>
-      <Footer/>
-      <CopyRight/>
+      <Footer />
+      <CopyRight />
     </div>
   );
 }

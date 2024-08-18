@@ -1,6 +1,6 @@
 [
   {
-    "id" : "1" ,
+    "id" : 1 ,
     "brand": "فیلیپس",
     "category": "fry",
     "color": "مشکی",
@@ -21,7 +21,7 @@
     "mark" : "پرفروش"
   },
   {
-    "id" : "2" ,
+    "id" : 2 ,
     "brand": "ایکس-ویژن",
     "category": "tv",
     "color": "مشکی مات",
@@ -42,7 +42,7 @@
     "price": "۱۴,۱۰۰,۰۰۰"
   },
   {
-    "id" : "3" ,
+    "id" : 3 ,
     "brand": "ویداس",
     "category": "coffee-maker",
     "color": "مشکی",
@@ -61,7 +61,7 @@
     "price": "۵۳۰,۰۰۰"
   },
   {
-    "id" : "4" ,
+    "id" : 4 ,
     "brand": "اسنوا",
     "category": "wash-machine",
     "color": "خاکستری",
@@ -81,7 +81,7 @@
     "price": "12,400,000"
   },
   {
-    "id" : "5" ,
+    "id" : 5 ,
     "brand": "پاکشوما",
     "category": "dish-washer",
     "color": "نقره ای",
@@ -101,7 +101,7 @@
     "price": "۱۶,۹۹۰,۰۰۰"
   },
   {
-    "id" : "6" ,
+    "id" : 6 ,
     "brand": "پاناسونیک",
     "category": "microwave",
     "color": "نقره ای",
@@ -122,7 +122,7 @@
     "price": "۴,۴۲۰,۰۰۰"
   },
   {
-    "id" : "7" ,
+    "id" : 7 ,
     "brand": "دلونگی",
     "category": "coffee-maker",
     "color": "استیل",
@@ -142,7 +142,7 @@
     "price": "۸,۳۲۴,۰۰۰"
   },
   {
-    "id" : "8" ,
+    "id" : 8 ,
     "brand": "فیلیپس",
     "category": "fry",
     "color": "مشکی",
@@ -163,7 +163,7 @@
     "price": "۳,۴۰۰,۰۰۰"
   },
   {
-    "id" : "9" ,
+    "id" : 9 ,
     "brand": "مایدیا",
     "category": "dish-washer",
     "color": "نقره ای",
@@ -182,7 +182,7 @@
     "price": "۱۰,۵۹۰,۰۰۰"
   },
   {
-    "id" : "10" ,
+    "id" : 10 ,
     "brand": "بوش",
     "category": "vacuum",
     "color": "مشکی - طلایی",
@@ -203,7 +203,7 @@
     "price": "۶,۳۷۰,۰۰۰"
   },
   {
-    "id" : "11" ,
+    "id" : 11 ,
     "brand": "ایکس-ویژن",
     "category": "wash-machine",
     "color": "خاکستری",
@@ -224,7 +224,7 @@
     "price": "۱۰,۲۳۰,۰۰۰"
   },
   {
-    "id" : "12" ,
+    "id" : 12 ,
     "brand": "سونی",
     "category": "tv",
     "color": "خاکسنری مات",
@@ -243,7 +243,7 @@
     "price": "۴۶,۹۰۰,۰۰۰"
   },
   {
-    "id" : "13" ,
+    "id" : 13 ,
     "brand": "بلک اند دکر",
     "category": "sandwich-maker",
     "color": "مشکی",
@@ -264,7 +264,7 @@
     "price": "۱,۹۱۸,۲۰۰"
   },
   {
-    "id" : "14" ,
+    "id" : 14 ,
     "brand": "دوو",
     "category": "vacuum",
     "color": "مشکی - قرمز",
@@ -284,7 +284,7 @@
     "price": "۴,۴۰۰,۰۰۰"
   },
   {
-    "id" : "15" ,
+    "id" : 15 ,
     "brand": "اسنوا",
     "category": "tv",
     "color": "مشکی مات",
@@ -304,7 +304,7 @@
     "price": "۱۲,۷۹۵,۰۰۰"
   },
   {
-    "id" : "16" ,
+    "id" : 16 ,
     "brand": "دوو",
     "category": "tv",
     "color": "مشکی",
@@ -325,7 +325,7 @@
     "price": "۱۳,۵۷۰,۰۰۰"
   },
   {
-    "id" : "17" ,
+    "id" : 17 ,
     "brand": "بوش",
     "category": "vacuum",
     "color": "خاکستری",
@@ -346,7 +346,7 @@
     "price": "۷,۹۳۵,۰۰۰"
   },
   {
-    "id" : "18" ,
+    "id" : 18 ,
     "brand": "فیلیپس",
     "category": "fry",
     "color": "مشکی",
@@ -366,7 +366,7 @@
     "price": "۱۴,۶۲۵,۰۰۰"
   },
   {
-    "id" : "19" ,
+    "id" : 19 ,
     "brand": "هیمالیا",
     "category": "Refrigerator",
     "color": "آبی",
@@ -387,7 +387,7 @@
     "price": "۲۸,۳۴۰,۰۰۰"
   },
   {
-    "id" : "20" ,
+    "id" : 20 ,
     "brand": "ساید",
     "category": "Refrigerator",
     "color": "استیل",
@@ -407,7 +407,7 @@
     "price": "۲۲,۹۰۳,۷۵۰"
   },
   {
-    "id" : "21" ,
+    "id" : 21 ,
     "brand": "مباشی",
     "category": "coffee-maker",
     "color": "مشکی",
@@ -427,7 +427,7 @@
     "price": "۳,۴۱۹,۷۳۰"
   },
   {
-    "id" : "22" ,
+    "id" : 22 ,
     "brand": "تی سی ال",
     "category": "tv",
     "color": "خاکستری مات",
@@ -447,7 +447,7 @@
     "price": "۷,۱۰۰,۰۰۰"
   },
   {
-    "id" : "23" ,
+    "id" : 23 ,
     "brand": "پارس خزر",
     "category": "vacuum",
     "color": "مشکی",

@@ -15,7 +15,7 @@ function BlogItem(props) {
           <p className="text-2xs md:text-xs text-gray200 pt-2 pb-4">
             توسط <span className="text-info800">نویسنده</span>
           </p>
-          <Button name="بیشتر بخوانیم" />
+          <Button name="بیشتر بخوانیم"/>
         </div>
       </div>
     </>
