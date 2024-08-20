@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 import { FaStar } from "react-icons/fa6";
 import { SlBasket } from "react-icons/sl";
 import Button from "../UI/button";
 
 function ProductCard(props) {
-  const { brand, image, name, price, offPrice, mark } = props.items;
+  const { brand, image, name, price, offPrice, mark, id } = props.items;
 
   return (
     <>
@@ -32,7 +33,9 @@ function ProductCard(props) {
         </p>
 
         <div className="flex gap-x-1 items-end justify-between pt-5 lg:pt-8">
-          <Button name="خرید" icon={<SlBasket className="text-sm" />} />
+          <Link href={`/product/${id}`}>
+            <Button name="خرید" icon={<SlBasket className="text-sm" />} />
+          </Link>
           <div className="flex flex-col">
             <p className="text-2xs md:text-xs text-left text-gray-400">
               <del>{offPrice}</del>

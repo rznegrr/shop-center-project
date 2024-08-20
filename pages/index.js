@@ -21,7 +21,7 @@ export default function MainPage() {
         <Category />
         <Banner />
         <CategoryTitle title="محبوب ترین محصولات" />
-        <ProductList component={<ProductCard />} />
+        <ProductList component={<ProductCard />} start={0} end={12}/>
         <Brands />
         <div className="container grid grid-cols-4 place-items-center gap-x-10 pt-5 md:pt-10">
           <Article title="محصولات جدید" start={10} end={13} />

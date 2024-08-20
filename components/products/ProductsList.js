@@ -2,9 +2,9 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import Products from "../../data/products.json";
 
-function ProductList() {
-  const productToShow = Products.slice(0, 12);
-  
+function ProductList({ start, end }) {
+  const productToShow = Products.slice(start, end);
+
   return (
     <div>
       <ul className="grid grid-cols-6 container place-items-center gap-x-2 gap-y-3 md:gap-x-14 md:gap-y-10 lg:gap-x-5 lg:gap-y-3 md:pb-10">

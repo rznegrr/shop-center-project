@@ -30,6 +30,10 @@ button {
   width: 87%;
 }
 
+.mySwiper {
+  margin-top: 30px;
+}
+
 .list li {
   cursor: pointer;
 }
@@ -81,6 +85,7 @@ button {
 
 .dropdown-content {
   display: flex;
+  justify-content: center;
   visibility: hidden;
   position: absolute;
   top: 80%;
@@ -120,6 +125,31 @@ button {
 .dropdown:hover .dropdown-content {
   visibility: visible;
 }
+.productList {
+  list-style: none;
+}
+
+.angle {
+  border-radius: 5px;
+  padding: 2px 5px;
+  width: 18.3rem;
+  border: 1px solid rgb(212, 212, 212);
+  margin-top: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.1s ease-in;
+}
+
+.angle:hover {
+  color: #616da7;
+}
+
+.angle::before {
+  content: "\f104 ";
+  font-family: FontAwesome;
+  font-size: 14px;
+  padding-left: 3px;
+}
 
 @media only screen and (max-width: 425px) {
   .productSwiper {
@@ -131,6 +161,24 @@ button {
 
   .footer li {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .angle {
+    width: 13rem;
+  }
+  .productList {
+    height: 50rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .productList {
+    height: 42rem;
+  }
+  .mySwiper {
+    margin-top: 0;
   }
 }
 
@@ -163,5 +211,14 @@ button {
   }
   ul:last-of-type li:last-child {
     border-bottom: none;
+  }
+  .productList {
+    height: 46rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .productList {
+    height: 25rem;
   }
 }

@@ -5,7 +5,6 @@ import ShoppingCartIcon from "../../public/icons/shopping-icon";
 import Input from "../UI/input";
 import Hug from "../../public/icons/hug";
 import MobileMenu from "../mobile-menu/MobileMenu";
-import Navigation from "./Navigation";
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -30,7 +29,7 @@ function Header() {
       <div className="lg:hidden">
         <Hug onClick={openMobileMenuHandler} />
       </div>
-      <img src="./site-logo.svg" alt="site-logo" className="h-16 w-32" />
+      <img src="/site-logo.svg" alt="site-logo" className="h-16 w-32" />
 
       {toggleMenu && <MobileMenu onClick={closeMobileMenuHandler} />}
     </div>
