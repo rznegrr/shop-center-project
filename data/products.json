@@ -1,6 +1,6 @@
 [
   {
-    "id" : "1" ,
+    "id": "1",
     "brand": "فیلیپس",
     "category": "fry",
     "color": "مشکی",
@@ -18,10 +18,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/911e57b5a4cd1a86bfb8935cc44e87e17faae65e_1630310917.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
     "name": "سرخ کن فیلیپس",
     "price": "۳,۶۰۰,۰۰۰ ",
-    "mark" : "پرفروش"
+    "mark": "پرفروش",
+    "quantity": 1
   },
   {
-    "id" : "2" ,
+    "id": "2",
     "brand": "ایکس-ویژن",
     "category": "tv",
     "color": "مشکی مات",
@@ -39,10 +40,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/f9f6420c310fc9746a63d6b49dd1b07e8749ac96_1667220504.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "تلویزیون ال ای دی هوشمند ایکس ویژن",
     "offPrice": "۱۵,۹۳۰,۰۰۰",
-    "price": "۱۴,۱۰۰,۰۰۰"
+    "price": "۱۴,۱۰۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "3" ,
+    "id": "3",
     "brand": "ویداس",
     "category": "coffee-maker",
     "color": "مشکی",
@@ -58,10 +60,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/baaee5bbd31b8246aee3d9685af8d86facfb8cf5_1641811584.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "قهوه ساز ویداس",
-    "price": "۵۳۰,۰۰۰"
+    "price": "۵۳۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "4" ,
+    "id": "4",
     "brand": "اسنوا",
     "category": "wash-machine",
     "color": "خاکستری",
@@ -78,10 +81,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/7db910b4f454fcd2526ee10e72153ec889c52586_1652008101.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ماشین لباسشویی اسنوا",
-    "price": "12,400,000"
+    "price": "12,400,000",
+    "quantity": 1
   },
   {
-    "id" : "5" ,
+    "id": "5",
     "brand": "پاکشوما",
     "category": "dish-washer",
     "color": "نقره ای",
@@ -98,10 +102,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/48ddbce065f4df7ec4b4ff9d0d788fd5c84bc9b9_1652077032.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ماشین ظرفشویی پاکشوما",
     "offPrice": "۱۸,۹۰۶,۰۰۰",
-    "price": "۱۶,۹۹۰,۰۰۰"
+    "price": "۱۶,۹۹۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "6" ,
+    "id": "6",
     "brand": "پاناسونیک",
     "category": "microwave",
     "color": "نقره ای",
@@ -119,10 +124,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/3961754.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ماکروویو پاناسونیک",
     "offPrice": "5,100,000",
-    "price": "۴,۴۲۰,۰۰۰"
+    "price": "۴,۴۲۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "7" ,
+    "id": "7",
     "brand": "دلونگی",
     "category": "coffee-maker",
     "color": "استیل",
@@ -139,10 +145,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/13b7d5419535ad2006adf4c4c0b867de1449cdef_1609323605.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "اسپرسو ساز دلونگی",
-    "price": "۸,۳۲۴,۰۰۰"
+    "price": "۸,۳۲۴,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "8" ,
+    "id": "8",
     "brand": "فیلیپس",
     "category": "fry",
     "color": "مشکی",
@@ -160,10 +167,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/99d35a9d40bb67bea6eccc0b66cd4cd153a4d55f_1655277458.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "سرخ کن بدون روغن فیلیپس",
     "offPrice": "5,900,000",
-    "price": "۳,۴۰۰,۰۰۰"
+    "price": "۳,۴۰۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "9" ,
+    "id": "9",
     "brand": "مایدیا",
     "category": "dish-washer",
     "color": "نقره ای",
@@ -179,10 +187,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/e627ebd8e3dc53d595517d73568705588eb7a433_1596610505.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ماشین ظرفشویی رومیزی مایدیا",
-    "price": "۱۰,۵۹۰,۰۰۰"
+    "price": "۱۰,۵۹۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "10" ,
+    "id": "10",
     "brand": "بوش",
     "category": "vacuum",
     "color": "مشکی - طلایی",
@@ -200,10 +209,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/3456182.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "جاروبرقی بوش ",
     "offPrice": "7,980,000",
-    "price": "۶,۳۷۰,۰۰۰"
+    "price": "۶,۳۷۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "11" ,
+    "id": "11",
     "brand": "ایکس-ویژن",
     "category": "wash-machine",
     "color": "خاکستری",
@@ -221,10 +231,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/eb7a7b86778f9e9f8d1e3c4f696710de1799d185_1609960208.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ماشین لباسشویی ایکس ویژن",
     "offPrice": "11,850,000",
-    "price": "۱۰,۲۳۰,۰۰۰"
+    "price": "۱۰,۲۳۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "12" ,
+    "id": "12",
     "brand": "سونی",
     "category": "tv",
     "color": "خاکسنری مات",
@@ -240,10 +251,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/f25ba77b7d2e6453b5519a07dfb8e610d07c2aba_1667220755.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "تلویزیون ال ای دی هوشمند سونی",
-    "price": "۴۶,۹۰۰,۰۰۰"
+    "price": "۴۶,۹۰۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "13" ,
+    "id": "13",
     "brand": "بلک اند دکر",
     "category": "sandwich-maker",
     "color": "مشکی",
@@ -261,10 +273,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/116900721.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ساندویچ ساز بلک اند دکر",
     "offPrice": "2,720,000",
-    "price": "۱,۹۱۸,۲۰۰"
+    "price": "۱,۹۱۸,۲۰۰",
+    "quantity": 1
   },
   {
-    "id" : "14" ,
+    "id": "14",
     "brand": "دوو",
     "category": "vacuum",
     "color": "مشکی - قرمز",
@@ -281,10 +294,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/d2c0222773b7688dc61df83b41995afc490e5fa7_1618851421.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "جاروبرقی دوو",
-    "price": "۴,۴۰۰,۰۰۰"
+    "price": "۴,۴۰۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "15" ,
+    "id": "15",
     "brand": "اسنوا",
     "category": "tv",
     "color": "مشکی مات",
@@ -301,10 +315,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/a00def62aa04efcf9fa858ae8a9dedfcac70648d_1667291216.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "تلوزیون ال ای دی هوشمند اسنوا",
-    "price": "۱۲,۷۹۵,۰۰۰"
+    "price": "۱۲,۷۹۵,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "16" ,
+    "id": "16",
     "brand": "دوو",
     "category": "tv",
     "color": "مشکی",
@@ -322,10 +337,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/183ce302c97aca26d8c52877db8fba6f804574ac_1667219957.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "تلویزیون ال ای دی دوو",
     "offPrice": "۱۴,۱۰۰,۰۰۰",
-    "price": "۱۳,۵۷۰,۰۰۰"
+    "price": "۱۳,۵۷۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "17" ,
+    "id": "17",
     "brand": "بوش",
     "category": "vacuum",
     "color": "خاکستری",
@@ -343,10 +359,11 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/2464056.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "جارو برقی بوش",
     "offPrice": "8,500,000",
-    "price": "۷,۹۳۵,۰۰۰"
+    "price": "۷,۹۳۵,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "18" ,
+    "id": "18",
     "brand": "فیلیپس",
     "category": "fry",
     "color": "مشکی",
@@ -363,12 +380,13 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/3e990417aea4479f1dbd6969e5cc9a3ff610778a_1654673188.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "سرخ کن بدون روغن فیلیپس",
-    "price": "۱۴,۶۲۵,۰۰۰"
+    "price": "۱۴,۶۲۵,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "19" ,
+    "id": "19",
     "brand": "هیمالیا",
-    "category": "Refrigerator",
+    "category": "refrigerator",
     "color": "آبی",
     "features": [
       "  برچسب انرژی : +A",
@@ -384,12 +402,13 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/e0441a81a788afdacd8cfc2f7e2e0908bd4b2b36_1613295948.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "یخچال و فریزر دوقلو هیمالیا",
     "offPrice": "29,900,000",
-    "price": "۲۸,۳۴۰,۰۰۰"
+    "price": "۲۸,۳۴۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "20" ,
+    "id": "20",
     "brand": "ساید",
-    "category": "Refrigerator",
+    "category": "refrigerator",
     "color": "استیل",
     "features": [
       "  برچسب انرژی : +A",
@@ -404,10 +423,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/c5c7a003812ec1d386e2e60e65e550db652f40b1_1606041842.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "یخچال و فریزر ساید بای ساید",
-    "price": "۲۲,۹۰۳,۷۵۰"
+    "price": "۲۲,۹۰۳,۷۵۰",
+    "quantity": 1
   },
   {
-    "id" : "21" ,
+    "id": "21",
     "brand": "مباشی",
     "category": "coffee-maker",
     "color": "مشکی",
@@ -424,10 +444,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/113034397.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "اسپرسو ساز مباشی",
-    "price": "۳,۴۱۹,۷۳۰"
+    "price": "۳,۴۱۹,۷۳۰",
+    "quantity": 1
   },
   {
-    "id" : "22" ,
+    "id": "22",
     "brand": "تی سی ال",
     "category": "tv",
     "color": "خاکستری مات",
@@ -444,10 +465,11 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/2b5e58277f7897fb0bbe53d48e1f7b59009bb1d3_1667223191.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "تلوزیون ال ای دی تی سی ال ",
-    "price": "۷,۱۰۰,۰۰۰"
+    "price": "۷,۱۰۰,۰۰۰",
+    "quantity": 1
   },
   {
-    "id" : "23" ,
+    "id": "23",
     "brand": "پارس خزر",
     "category": "vacuum",
     "color": "مشکی",
@@ -464,6 +486,7 @@
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/101155.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "جارو برقی پارس خزر",
-    "price": "۳,۲۸۰,۰۰۰"
+    "price": "۳,۲۸۰,۰۰۰",
+    "quantity": 1
   }
 ]

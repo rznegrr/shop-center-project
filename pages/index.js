@@ -15,7 +15,7 @@ import ProductSlider from "../components/products/ProductSlider";
 export default function MainPage() {
   return (
     <div>
-      <HeadTitle title="صفحه اصلی" />
+      <HeadTitle title="شاپ سنتر | صفحه اصلی" />
       <MainLayout>
         <Hero />
         <Category />

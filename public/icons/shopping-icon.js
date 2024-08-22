@@ -1,13 +1,28 @@
-const ShoppingCartIcon = () => {
+import { useState } from "react";
+
+const ShoppingCartIcon = ({ onClick }) => {
+  const [addClass, setAddClass] = useState(false);
+
+  const addClassHandler = () => {
+    const handleFunction = onClick;
+    if (handleFunction) {
+      setAddClass(true);
+    } else {
+      setAddClass(false);
+    }
+  };
+
   return (
-    <div className="flex items-center">
+    <div className="flex items-center shop" onClick={onClick}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className="shop-icon w-6 h-6 cursor-pointer hover:text-info text-gray-700 transition ease-in-out"
+        className={`w-6 h-6 cursor-pointer hover:text-info text-gray-700 transition ease-in-out ${
+          addClass ? "shop-icon" :  ''
+        }`}
       >
         <path
           strokeLinecap="round"

@@ -5,7 +5,7 @@ function DropDown() {
   return (
     <div className="py-2 dropdown-content overflow-y-scroll">
       <div className="xl:mr-5">
-        <Link href={""} className="dropdown-content-angle">
+        <Link href={"/refrigerator"} className="dropdown-content-angle">
           یخچال
         </Link>
         <ul>
@@ -18,7 +18,7 @@ function DropDown() {
         </ul>
       </div>
       <ul className="xl:mr-10">
-        <Link href={""} className="dropdown-content-angle">
+        <Link href={"/tv"} className="dropdown-content-angle">
           تلویزیون
         </Link>
         <div>

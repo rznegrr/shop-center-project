@@ -20,6 +20,9 @@ module.exports = {
       fontSize: {
         "2xs": "10px",
       },
+      screens: {
+        'xs': '321px',
+      },
     },
     plugins: [],
   },

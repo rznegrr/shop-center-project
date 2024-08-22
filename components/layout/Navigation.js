@@ -13,7 +13,7 @@ function Navigation() {
   };
 
   return (
-    <div className="lg:flex lg:bg-gray-50">
+    <div className="lg:flex lg:bg-gray100">
       <ul className="list container flex flex-col lg:flex-row lg:gap-x-8 justify-center lg:items-center lg:py-4">
         <li>
           <Link className={`${currentRoute === "/" ? "active" : ""}`} href={"/"}>
@@ -23,7 +23,7 @@ function Navigation() {
         <li
           className="dropdown"
         >
-          <Link href={"/product"} onClick={toggleDropDownHandler} className="flex items-center cursor-pointer gap-x-1">
+          <Link href={"/product"} onMouseEnter={toggleDropDownHandler} onClick={toggleDropDownHandler} className={`flex items-center cursor-pointer gap-x-1 ${currentRoute === "/product" ? "active" : ""}`}>
             محصولات
             <MdOutlineKeyboardArrowDown />
           </Link>

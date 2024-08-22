@@ -7,7 +7,7 @@ import {
 
 function Footer() {
   return (
-    <div className="lg:h-[33rem] bg-info mt-10">
+    <div className="lg:h-[33rem] bg-info">
       <div className="container">
         <div className="flex flex-col justify-center items-center">
           <p className="text-md sm:text-3xl text-[#ebebeb] py-5 md:py-10">

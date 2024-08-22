@@ -129,26 +129,105 @@ button {
   list-style: none;
 }
 
-.angle {
+.before p {
+  background: -webkit-linear-gradient(#111827, #c9c9c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form {
+  height: 400px;
+  width: 700px;
+  padding: 1rem;
+  margin-right: 40px;
+}
+
+.form .mainDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  width: 150px;
+  text-align: right;
+  margin: 10px 0;
+  color: #141414;
+}
+
+.form input,
+textarea {
+  width: 350px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #cececeec;
   border-radius: 5px;
-  padding: 2px 5px;
-  width: 18.3rem;
-  border: 1px solid rgb(212, 212, 212);
-  margin-top: 3px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: all 0.1s ease-in;
 }
 
-.angle:hover {
-  color: #616da7;
+.form input:focus,
+textarea:focus {
+  border-color: #b3b3b3;
+  outline: none;
 }
 
-.angle::before {
-  content: "\f104 ";
-  font-family: FontAwesome;
-  font-size: 14px;
-  padding-left: 3px;
+.form textarea {
+  height: 6rem;
+  resize: none;
+}
+
+.form button {
+  margin: 20px 0;
+  background-color: #616da7;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+.shop {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.shop::after {
+  content: attr(data-number);
+  background-color: #A4AFE5;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 50%;
+  color: #fff;
+  top: -2px;
+  left: -5px;
+  display: grid;
+  place-content: center;
+  transform: translateY(3px);
+  opacity: 0;
+  transition: all 0.25s;
+}
+
+.shop::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.shop-icon {
+  max-width: 100%;
+  animation: shake 1s forwards;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -170,6 +249,15 @@ button {
   }
   .productList {
     height: 50rem;
+  }
+  .form {
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  .form input,
+  textarea {
+    width: 250px;
   }
 }
 

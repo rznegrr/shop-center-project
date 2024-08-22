@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Products from "../../data/products.json";
 import ProductDetail from "../../components/products/ProductDetail";
+import HeadTitle from "../../components/UI/headTitle";
 
 function ProductDetailPage() {
   const router = useRouter();
@@ -27,6 +28,7 @@ function ProductDetailPage() {
 
   return (
     <div>
+      <HeadTitle title={`شاپ سنتر | ${product.name}`} />
       <ProductDetail product={product} />
     </div>
   );
