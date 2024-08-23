@@ -9,9 +9,10 @@ import ProductSlider from "./ProductSlider";
 import Breadcrumbs from "../BreadCrumbs";
 import SpecificationProduct from "../UI/SpecificationProduct";
 import CommentForm from "../UI/comment-form";
+import { formatPrice } from "../../utils/priceUtiles";
 
 function ProductDetail({ product }) {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const [activeComponent, setActiveComponent] = useState("first");
 
   const handleFirstButtonClick = () => {
@@ -23,17 +24,22 @@ function ProductDetail({ product }) {
   };
 
   const addToCartHandler = () => {
-    dispatch(addItem(product))
-  }
+    dispatch(addItem(product));
+  };
 
   return (
     <>
       <MainLayout>
         <div className="bg-gray-50 py-5 md:py-10 overflow-hidden">
-          <Breadcrumbs name1={'محصولات'} part1={'product'} part2={product.id} name2={product.name}/>
+          <Breadcrumbs
+            name1={"محصولات"}
+            part1={"product"}
+            part2={product.id}
+            name2={product.name}
+          />
           <div className="productList">
             <div className="grid grid-cols-12 w-[90vw] bg-white m-auto">
-              <div className="col-span-12 xl:col-span-4 flex flex-col xl:flex-row-reverse xl:mr-3 place-items-center">
+              <div className="col-span-12 xl:col-span-4 flex flex-col xl:flex-row-reverse xl:mr-3 place-items-center relative">
                 <img
                   src={product.image}
                   className="w-40 xs:w-64 md:w-80 xl:w-96 m-auto p-3"
@@ -49,6 +55,9 @@ function ProductDetail({ product }) {
                       />
                     </li>
                   ))}
+                 {product.mark && <div className="absolute text-2xs top-4 left-6 md:top-10 md:left-16 xl:left-8 xl:top-4 z-10 md:text-xs bg-info200 text-white px-2 py-1 rounded-full">
+                    {product.mark}
+                  </div>}
                 </div>
               </div>
 
@@ -67,7 +76,7 @@ function ProductDetail({ product }) {
 
                 <div className="my-4 flex gap-x-3 items-center">
                   <p className="text-gray-700 text-[15px]">
-                     برند : 
+                    برند :
                     <span className="text-info800 text-sm">
                       {product.brand}
                     </span>
@@ -91,20 +100,20 @@ function ProductDetail({ product }) {
                   </div>
                 </div>
 
-                <div className="text-gray-800 mt-8">
-                  <p className="text-left ml-24">
-                    <del>{product.offPrice}</del>
-                  </p>
+                <div className="text-gray-800 mt-5">
+                {product.offPrice && <p className="text-left ml-24">
+                    <del>{formatPrice(product.offPrice)}</del>
+                  </p>}
                   <p className="text-xl mt-1 text-left text-[#35394d]">
                     <span className="text-2xl text-info800 font-bold ml-2">
-                      {product.price}
+                      {formatPrice(product.price)}
                     </span>
                     تومان
                   </p>
                 </div>
               </div>
 
-              <div className="col-span-12 md:col-span-6 xl:col-span-4 p-4">
+              <div className="col-span-12 md:col-span-6 xl:col-span-4 pt-0 md:pt-4 p-4 ">
                 <p className="text-lg font-bold text-gray-900 my-3">
                   ویژگی های محصول
                 </p>
@@ -120,7 +129,7 @@ function ProductDetail({ product }) {
                   فروشنده :
                   <span className="text-sm text-[#616DA7]">شاپ سنتر</span>
                 </p>
-                <div className="flex items-center border w-[13rem] md:w-[18.3rem] py-1 px-2">
+                <div className="flex items-center border w-[13rem] md:w-[18.3rem] py-1 px-2 rounded-md">
                   <RiArrowDropLeftLine className="text-gray-500" />
                   <p className="text-xs md:text-sm">جستجو در فروشندگان دیگر</p>
                 </div>

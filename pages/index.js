@@ -8,7 +8,6 @@ import Brands from "../components/brands/Brands";
 import Feature from "../components/our-feature/Feature";
 import Blogs from "../components/blog/Blogs";
 import CategoryTitle from "../components/UI/category-title";
-import ProductCard from "../components/products/ProductCard";
 import Article from "../components/article/Article";
 import ProductSlider from "../components/products/ProductSlider";
 
@@ -21,7 +20,7 @@ export default function MainPage() {
         <Category />
         <Banner />
         <CategoryTitle title="محبوب ترین محصولات" />
-        <ProductList component={<ProductCard />} start={0} end={12}/>
+        <ProductList start={0} end={12}/>
         <Brands />
         <div className="container grid grid-cols-4 place-items-center gap-x-10 pt-5 md:pt-10">
           <Article title="محصولات جدید" start={10} end={13} />

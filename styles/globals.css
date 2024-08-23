@@ -1,6 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @font-face {
   font-family: "yekan";
@@ -182,7 +184,7 @@ textarea:focus {
   border-radius: 10px;
 }
 
-.shop {
+/* .shop {
   width: 24px;
   height: 24px;
   position: relative;
@@ -228,7 +230,7 @@ textarea:focus {
   50% {
     transform: rotate(0);
   }
-}
+} */
 
 @media only screen and (max-width: 425px) {
   .productSwiper {

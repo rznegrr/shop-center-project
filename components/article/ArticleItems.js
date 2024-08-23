@@ -1,5 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa6";
+import { formatPrice } from "../../utils/priceUtiles";
 
 function ArticleItems(props) {
   const { image, name, price, offPrice } = props.items;
@@ -23,11 +24,11 @@ function ArticleItems(props) {
           </div>
 
           <div className="flex flex-col mr-[120px] xl:mr-[84px]">
-            <p className="text-2xs md:text-xs text-gray-400">
-              <del>{offPrice}</del>
-            </p>
+            {offPrice && <p className="text-2xs md:text-xs text-gray-400">
+              <del>{formatPrice(offPrice)}</del>
+            </p>}
             <p className="text-2xs md:text-xs text-info">
-              {price}
+              {formatPrice(price)}
               <span className="text-2xs text-gray-700 pr-1">تومان</span>
             </p>
           </div>

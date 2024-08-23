@@ -1,14 +1,15 @@
 import { useState } from "react";
-
 import Account from "../../public/icons/account";
 import ShoppingCartIcon from "../../public/icons/shopping-icon";
 import Input from "../UI/input";
 import Hug from "../../public/icons/hug";
 import MobileMenu from "../mobile-menu/MobileMenu";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const quantity = useSelector((state) => state.shopCart.quantity)
 
   const openMobileMenuHandler = () => {
     setToggleMenu(true);
@@ -23,7 +24,7 @@ function Header() {
       <div className="hidden lg:flex gap-x-6 items-center">
         <Account />
         <Link href={`/shopcart`}>
-          <ShoppingCartIcon />
+          <ShoppingCartIcon quantity={quantity}/>
         </Link>
         <div>
           <Input />

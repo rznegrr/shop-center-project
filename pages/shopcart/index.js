@@ -1,25 +1,15 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { clearCart, removeItem } from "../../store/cartSlice";
-import { FaMinus } from "react-icons/fa6";
-import { FaPlus } from "react-icons/fa6";
+import { useSelector } from "react-redux";
 
 import Breadcrumbs from "../../components/BreadCrumbs";
 import MainLayout from "../../components/layout/MainLayout";
 import HeadTitle from "../../components/UI/headTitle";
+import ShopcartItem from "./shopcartItem";
+import { formatPrice } from "../../utils/priceUtiles";
 
 function ShopCartPage() {
   const cartItems = useSelector((state) => state.shopCart.items);
   const totalAmount = useSelector((state) => state.shopCart.totalAmount);
-  const dispatch = useDispatch();
-
-  const removeItemHandler = (id) => {
-    dispatch(removeItem(id));
-  };
-
-  const clearCartHandler = () => {
-    dispatch(clearCart());
-  };
 
   return (
     <>
@@ -35,34 +25,8 @@ function ShopCartPage() {
           <div className="container grid grid-cols-12 gap-x-5 pb-10">
             <div className="col-span-12 lg:col-span-7 overflow-hidden">
               {cartItems.map((items) => (
-                <div
-                  key={items.id}
-                  className="h-28 md:h-36 border border-gray-200 rounded-lg flex gap-x-5 items-center p-2 md:p-4 mt-7"
-                >
-                  <img
-                    src={items.image}
-                    className="h-16 w-16 md:h-32 md:w-32 rounded-xl"
-                  />
-                  <div className="flex flex-col md:flex-row gap-x-10 w-full justify-between gap-y-4">
-                    <p className="text-sm md:text-base font-semibold">
-                      {items.name}
-                    </p>
-                    <div className="flex gap-x-2 xs:gap-x-10 md:ml-4 items-center">
-                      <div className="flex items-center gap-x-4 border px-2">
-                        <FaMinus className="text-xs text-gray-700" />
-                        <p className="text-gray-700 border-y">
-                          {items.quantity}
-                        </p>
-                        <FaPlus className="text-xs text-gray-700" />
-                      </div>
-                      <p className="text-xs xs:text-sm md:text-base text-info">
-                        {items.price}
-                        <span className="text-xs md:text-sm text-gray-700 pr-1">
-                          تومان
-                        </span>
-                      </p>
-                    </div>
-                  </div>
+                <div key={items.id}>
+                  <ShopcartItem items={items} />
                 </div>
               ))}
             </div>
@@ -77,7 +41,7 @@ function ShopCartPage() {
               <div className="flex justify-between py-5">
                 <p>مجموع</p>
                 <p className="text-gray-700 text-lg">
-                  {totalAmount}
+                  {formatPrice(totalAmount)}
                   <span className="text-sm mr-1">تومان</span>
                 </p>
               </div>

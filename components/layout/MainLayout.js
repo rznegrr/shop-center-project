@@ -7,7 +7,7 @@ import TopHeader from "./TopHeader";
 function MainLayout({ children }) {
   return (
     <div>
-      <div className="">
+      <div>
         <TopHeader />
         <Header />
         <div className="hidden lg:block">

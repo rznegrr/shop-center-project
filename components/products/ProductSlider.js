@@ -7,6 +7,7 @@ import { Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import Link from "next/link";
+import { formatPrice } from "../../utils/priceUtiles";
 
 const ProductSlider = () => {
   const productToShow = Products.slice(10, 18);
@@ -57,7 +58,7 @@ const ProductSlider = () => {
                 <p className="text-xs md:text-sm text-gray-700 py-2">
                   {items.name}
                 </p>
-                <span className="text-2xs md:text-xs text-info800">{`${items.price} تومان`}</span>
+                <span className="text-2xs md:text-xs text-info800">{`${formatPrice(items.price)} تومان`}</span>
               </div>
             </Link>
           </SwiperSlide>

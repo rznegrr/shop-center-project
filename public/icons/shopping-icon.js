@@ -1,28 +1,18 @@
-import { useState } from "react";
-
-const ShoppingCartIcon = ({ onClick }) => {
-  const [addClass, setAddClass] = useState(false);
-
-  const addClassHandler = () => {
-    const handleFunction = onClick;
-    if (handleFunction) {
-      setAddClass(true);
-    } else {
-      setAddClass(false);
-    }
-  };
-
+const ShoppingCartIcon = ({ quantity }) => {
   return (
-    <div className="flex items-center shop" onClick={onClick}>
+    <div className="flex items-center relative">
+      <div className="absolute bg-info200 top-0 left-[-8px] rounded-full w-4 h-4">
+        <p className="text-xs text-white text-center">
+          {quantity}
+        </p>
+      </div>{" "}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className={`w-6 h-6 cursor-pointer hover:text-info text-gray-700 transition ease-in-out ${
-          addClass ? "shop-icon" :  ''
-        }`}
+        className={`w-6 h-6 cursor-pointer hover:text-info text-gray-700 transition ease-in-out`}
       >
         <path
           strokeLinecap="round"
