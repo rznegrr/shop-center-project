@@ -29,12 +29,12 @@ function ShopcartItem(props) {
           <div className="flex gap-x-2 xs:gap-x-10 md:ml-4 items-center">
             <div className="flex items-center gap-x-4 border px-2">
               <FaMinus
-                className="text-xs text-gray-700"
+                className="text-xs text-gray-700 cursor-pointer"
                 onClick={removeItemHandler}
               />
               <p className="text-gray-700 border-y">{quantity}</p>
               <FaPlus
-                className="text-xs text-gray-700"
+                className="text-xs text-gray-700 cursor-pointer"
                 onClick={addItemHandler}
               />
             </div>
