@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { addItem, removeItem } from "../../store/cartSlice";
+import { addItem, removeItem } from "../store/cartSlice";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
-import { formatPrice } from "../../utils/priceUtiles";
+import { formatPrice } from "../utils/priceUtiles";
 
 function ShopcartItem(props) {
   const { id, image, name, quantity, price } = props.items;

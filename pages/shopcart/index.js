@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import Breadcrumbs from "../../components/BreadCrumbs";
 import MainLayout from "../../components/layout/MainLayout";
 import HeadTitle from "../../components/UI/headTitle";
-import ShopcartItem from "./shopcartItem";
+import ShopcartItem from "../../components/shopcartItem";
 import { formatPrice } from "../../utils/priceUtiles";
 
 function ShopCartPage() {
