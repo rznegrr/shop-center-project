@@ -1,8 +1,6 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @font-face {
   font-family: "yekan";
@@ -76,6 +74,8 @@ button {
 }
 
 .productSwiper {
+  display: grid;
+  grid-column: span;
   width: 87%;
   height: 260px;
 }
@@ -265,7 +265,7 @@ textarea:focus {
 
 @media only screen and (min-width: 640px) and (max-width: 1023px) {
   .productList {
-    height: 42rem;
+    height: 45rem;
   }
   .mySwiper {
     margin-top: 0;
@@ -302,6 +302,9 @@ textarea:focus {
   ul:last-of-type li:last-child {
     border-bottom: none;
   }
+}
+
+@media only screen and (min-width: 1023px) {
   .productList {
     height: 46rem;
   }

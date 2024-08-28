@@ -32,7 +32,7 @@ export default function MainPage() {
         <div className="container md:pt-10 pb-5">
           <img
             src="./images/slider04.webp"
-            className="m-auto h-[110px] md:h-[250px] lg:h-[350px] rounded-2xl"
+            className="m-auto h-[150px] md:h-[250px] lg:h-[350px] rounded-2xl"
           />
         </div>
         <CategoryTitle title="محصولات پیشنهادی" />

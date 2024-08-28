@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import Products from "../../data/products.json";
 import ProductDetail from "../../components/products/ProductDetail";
 import HeadTitle from "../../components/UI/headTitle";
+import ProductSlider from "../../components/products/ProductSlider";
+import MainLayout from "../../components/layout/MainLayout";
 
 function ProductDetailPage() {
   const router = useRouter();
@@ -28,8 +30,11 @@ function ProductDetailPage() {
 
   return (
     <div>
-      <HeadTitle title={`شاپ سنتر | ${product.name}`} />
-      <ProductDetail product={product} />
+      <MainLayout>
+        <HeadTitle title={`شاپ سنتر | ${product.name}`} />
+        <ProductDetail product={product} />
+        {/* <ProductSlider />  */}
+      </MainLayout>
     </div>
   );
 }
