@@ -23,10 +23,10 @@ function Navigation() {
         <li
           className="dropdown"
         >
-          <Link href={"/product"} onMouseEnter={toggleDropDownHandler} onClick={toggleDropDownHandler} className={`flex items-center cursor-pointer gap-x-1 ${currentRoute === "/product" ? "active" : ""}`}>
+          <div onClick={toggleDropDownHandler} className={`flex items-center cursor-pointer gap-x-1 ${currentRoute === "/product" ? "active" : ""}`}>
             محصولات
             <MdOutlineKeyboardArrowDown />
-          </Link>
+          </div>
           {toggleDropDown && <DropDown />}
         </li>
         <li>

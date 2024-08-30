@@ -6,6 +6,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import HeadTitle from "../../components/UI/headTitle";
 import ShopcartItem from "../../components/shopcartItem";
 import { formatPrice } from "../../utils/priceUtiles";
+import { Toaster } from "react-hot-toast";
 
 function ShopCartPage() {
   const cartItems = useSelector((state) => state.shopCart.items);
@@ -15,6 +16,7 @@ function ShopCartPage() {
     <>
       <MainLayout>
         <HeadTitle title="شاپ سنتر | سبد خرید" />
+        <Toaster position="top-center"/>
         <Breadcrumbs
           name1="محصولات"
           part1={"product"}

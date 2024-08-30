@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { toast } from "react-hot-toast";
 
 const initialState = {
   items: [],
@@ -20,13 +21,24 @@ export const cartSlice = createSlice({
         existingItem.quantity++;
       }
       state.totalAmount += newItem.price;
+      toast.success(`محصول ${newItem.name} به سبد خرید اضافه شد`, {
+        style: {
+          borderRadius: "10px",
+          background: "#A4AFE5",
+          color: "#fff",
+          fontSize:'14px'
+        },
+        duration: 4000,
+      });
     },
 
     removeItem: (state, action) => {
+      if (state.quantity === 0) {
+        return;
+      }
       const id = action.payload;
       const existingItem = state.items.find((item) => item.id === id);
-      console.log(existingItem);
-      
+
       state.quantity--;
 
       if (existingItem.quantity === 1) {
@@ -35,6 +47,15 @@ export const cartSlice = createSlice({
         existingItem.quantity--;
       }
       state.totalAmount -= existingItem.price;
+      toast.error(`محصول ${existingItem.name} از سبد خرید حذف شد`, {
+        style: {
+          borderRadius: "10px",
+          background: "#A4AFE5",
+          color: "#fff",
+          fontSize:'14px'
+        },
+        duration: 4000,
+      });
     },
   },
 });

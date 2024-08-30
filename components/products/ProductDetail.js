@@ -1,19 +1,22 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
-import { addItem } from "../../store/cartSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem, removeItem } from "../../store/cartSlice";
 
-import { FaStar } from "react-icons/fa6";
+import { FaStar, FaMinus, FaPlus } from "react-icons/fa6";
+import { Toaster } from "react-hot-toast";
 import { RiArrowDropLeftLine } from "react-icons/ri";
-import MainLayout from "../layout/MainLayout";
-import ProductSlider from "./ProductSlider";
+import { formatPrice } from "../../utils/priceUtiles";
 import Breadcrumbs from "../BreadCrumbs";
 import SpecificationProduct from "../UI/SpecificationProduct";
 import CommentForm from "../UI/comment-form";
-import { formatPrice } from "../../utils/priceUtiles";
+import Link from "next/link";
 
 function ProductDetail({ product }) {
   const dispatch = useDispatch();
+  const productQuantity = useSelector((state) => state.shopCart.quantity);
   const [activeComponent, setActiveComponent] = useState("first");
+  const [showQuantity, setShowQuantity] = useState(true);
+  const [mainImage, setMainImage] = useState(product.image);
 
   const handleFirstButtonClick = () => {
     setActiveComponent("first");
@@ -25,10 +28,21 @@ function ProductDetail({ product }) {
 
   const addToCartHandler = () => {
     dispatch(addItem(product));
+    setShowQuantity(false);
+  };
+
+  const removeFromCartHandler = () => {
+    dispatch(removeItem(product.id));
+    if (productQuantity === 1) {
+      setShowQuantity(true);
+    }
   };
 
   return (
     <div>
+      <div>
+        <Toaster position="top-center" />
+      </div>
       <div className="bg-gray-50 py-5 md:py-10 overflow-hidden">
         <Breadcrumbs
           name1={"محصولات"}
@@ -40,16 +54,23 @@ function ProductDetail({ product }) {
           <div className="grid grid-cols-12 w-[90vw] bg-white m-auto">
             <div className="col-span-12 xl:col-span-4 flex flex-col xl:flex-row-reverse xl:mr-3 place-items-center relative">
               <img
-                src={product.image}
-                className="w-40 xs:w-64 md:w-80 xl:w-96 m-auto p-3"
+                src={mainImage}
+                className="w-40 xs:w-64 md:w-80 lg:h-[340px] xl:w-80 m-auto p-3 object-cover"
                 alt="product"
               />
-              <div className="flex xl:flex-col items-start gap-x-2 mt-3 overflow-hidden m-auto md:mx-0 md:gap-y-3">
-                {product.gallery.map((pics, index) => (
-                  <li key={index}>
+              <ul className="flex xl:flex-col items-start gap-x-2 mt-3 overflow-hidden m-auto md:mx-0 md:gap-y-3">
+                <li onClick={() => setMainImage(product.image)}>
+                  <img
+                    className="w-[50px] md:w-[65px] border border-gray-400 rounded-xl p-1 cursor-pointer"
+                    src={product.image}
+                    alt="product-gallery"
+                  />
+                </li>
+                {product.gallery.map((pic, index) => (
+                  <li key={index} onClick={() => setMainImage(pic)}>
                     <img
                       className="w-[50px] md:w-[65px] border border-gray-400 rounded-xl p-1 cursor-pointer"
-                      src={pics}
+                      src={pic}
                       alt="product-gallery"
                     />
                   </li>
@@ -59,7 +80,7 @@ function ProductDetail({ product }) {
                     {product.mark}
                   </div>
                 )}
-              </div>
+              </ul>
             </div>
 
             <div className="col-span-12 md:col-span-6 xl:col-span-4 mt-5 xl:mt-7 px-4">
@@ -132,12 +153,34 @@ function ProductDetail({ product }) {
                 <RiArrowDropLeftLine className="text-gray-500" />
                 <p className="text-xs md:text-sm">جستجو در فروشندگان دیگر</p>
               </div>
-              <button
-                className="bg-info800 text-white text-sm w-52 md:w-[18.3rem] py-1 rounded-md mt-2 hover:bg-info200 hover:text-info transition ease-in-out duration-300"
-                onClick={addToCartHandler}
-              >
-                افزودن به سبد خرید
-              </button>
+
+              {showQuantity ? (
+                <button
+                  className="bg-info800 text-white text-sm w-52 md:w-[18.3rem] py-1 rounded-md mt-2 hover:bg-info200 hover:text-info transition ease-in-out duration-300"
+                  onClick={addToCartHandler}
+                >
+                  افزودن به سبد خرید
+                </button>
+              ) : (
+                <div className="flex items-center mt-2">
+                  <div className="flex items-center gap-x-4 border px-2 rounded-md w-20">
+                    <FaMinus
+                      className="text-xs text-gray-700 cursor-pointer"
+                      onClick={removeFromCartHandler}
+                    />
+                    <p className="text-gray-700 border-y">{productQuantity}</p>
+                    <FaPlus
+                      className="text-xs text-gray-700 cursor-pointer"
+                      onClick={addToCartHandler}
+                    />
+                  </div>
+                  <Link href={"/shopcart"}>
+                    <p className="text-xs md:text-sm mr-3 text-info">
+                      مشاهده سبد خرید
+                    </p>
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>

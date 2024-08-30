@@ -38,7 +38,7 @@
       "https://dkstatics-public.digikala.com/digikala-products/408ba678b0ca26fa89d6304eedbf58695ffd119d_1652528556.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/f9f6420c310fc9746a63d6b49dd1b07e8749ac96_1667220504.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "name": "تلویزیون ال ای دی هوشمند ایکس ویژن",
+    "name": "تلویزیون ال ای دی ایکس ویژن",
     "offPrice": 15930000,
     "price": 14100000,
     "quantity": 1
@@ -82,7 +82,8 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/7db910b4f454fcd2526ee10e72153ec889c52586_1652008101.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "ماشین لباسشویی اسنوا",
     "price": 12400000,
-    "quantity": 1
+    "quantity": 1,
+    "mark": "پرفروش"
   },
   {
     "id": "5",
@@ -168,7 +169,8 @@
     "name": "سرخ کن بدون روغن فیلیپس",
     "offPrice": 5900000,
     "price": 3400000,
-    "quantity": 1
+    "quantity": 1,
+    "mark": "پرفروش"
   },
   {
     "id": "9",
@@ -250,9 +252,10 @@
       "https://dkstatics-public.digikala.com/digikala-products/46ed863d984da269cfa74a706d10503466a6ebe7_1644233126.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/f25ba77b7d2e6453b5519a07dfb8e610d07c2aba_1667220755.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "name": "تلویزیون ال ای دی هوشمند سونی",
+    "name": "تلویزیون ال ای دی سونی",
     "price": 46900000,
-    "quantity": 1
+    "quantity": 1,
+    "mark": "پرفروش"
   },
   {
     "id": "13",
@@ -314,7 +317,7 @@
       "https://dkstatics-public.digikala.com/digikala-products/5def4f7e01888e4574e642c70a4da482c7d33945_1606285955.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
     ],
     "image": "https://dkstatics-public.digikala.com/digikala-products/a00def62aa04efcf9fa858ae8a9dedfcac70648d_1667291216.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "name": "تلوزیون ال ای دی هوشمند اسنوا",
+    "name": "تلوزیون ال ای دی اسنوا",
     "price": 12795000,
     "quantity": 1
   },
@@ -338,7 +341,8 @@
     "name": "تلویزیون ال ای دی دوو",
     "offPrice": 14100000,
     "price": 13570000,
-    "quantity": 1
+    "quantity": 1,
+    "mark": "پرفروش"
   },
   {
     "id": "17",
@@ -359,7 +363,7 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/2464056.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "جارو برقی بوش",
     "offPrice": 8500000,
-    "price":7935000,
+    "price": 7935000,
     "quantity": 1
   },
   {
@@ -381,7 +385,8 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/3e990417aea4479f1dbd6969e5cc9a3ff610778a_1654673188.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "سرخ کن بدون روغن فیلیپس",
     "price": 14625000,
-    "quantity": 1
+    "quantity": 1,
+    "mark": "پرفروش"
   },
   {
     "id": "19",
@@ -424,7 +429,8 @@
     "image": "https://dkstatics-public.digikala.com/digikala-products/c5c7a003812ec1d386e2e60e65e550db652f40b1_1606041842.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "name": "یخچال و فریزر ساید بای ساید",
     "price": 22903750,
-    "quantity": 1
+    "quantity": 1,
+    "mark": "پرفروش"
   },
   {
     "id": "21",

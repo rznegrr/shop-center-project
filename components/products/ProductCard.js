@@ -14,7 +14,7 @@ function ProductCard(props) {
         <img
           src={image}
           alt="product picture"
-          className="rounded-3xl w-20 h-20 xs:w-28 xs:h-28 lg:h-48 lg:w-52 md:p-2 lg:p-6 m-auto"
+          className="rounded-3xl p-2 w-20 h-20 xs:w-28 xs:h-28 lg:h-48 lg:w-52 md:p-2 lg:p-6 m-auto"
         />
       <div className="p-3 lg:p-4">
         <p className="text-2xs md:text-xs text-gray200">{brand}</p>
@@ -35,7 +35,7 @@ function ProductCard(props) {
           توسط <span className="text-info800">فروشنده</span>
         </p>
 
-        <div className="flex gap-x-1 items-end justify-between pt-5 lg:pt-8 lg:absolute lg:bottom-5">
+        <div className="flex gap-x-1 items-end justify-between pt-5 lg:pt-8 bottom-4 absolute lg:bottom-5">
           <Link href={`/product/${id}`} className="ml-1">
             <Button
               name="خرید"

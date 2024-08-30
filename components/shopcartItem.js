@@ -4,6 +4,7 @@ import { addItem, removeItem } from "../store/cartSlice";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import { formatPrice } from "../utils/priceUtiles";
+import Link from "next/link";
 
 function ShopcartItem(props) {
   const { id, image, name, quantity, price } = props.items;
@@ -25,7 +26,9 @@ function ShopcartItem(props) {
       >
         <img src={image} className="h-16 w-16 md:h-32 md:w-32 rounded-xl" />
         <div className="flex flex-col md:flex-row lg:flex-col xl:flex-row gap-x-10 w-full justify-between gap-y-4">
-          <p className="text-sm md:text-base font-semibold">{name}</p>
+          <Link href={`/product/${id}`}>
+            <p className="text-sm md:text-base font-semibold">{name}</p>
+          </Link>
           <div className="flex gap-x-2 xs:gap-x-10 md:ml-4 items-center">
             <div className="flex items-center gap-x-4 border px-2">
               <FaMinus

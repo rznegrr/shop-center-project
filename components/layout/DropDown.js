@@ -29,16 +29,24 @@ function DropDown() {
         </div>
       </ul>
       <ul className="xl:mr-10 last-list">
-        <Link href={""}>
+        <Link href={"/product"}>
           <button className="dropdown-content-angle">لوازم برقی و خانگی</button>
         </Link>
         <li>اتو</li>
-        <li>ماشین لباسشویی</li>
-        <li>ماشین ظرفشویی</li>
-        <li>قهوه و چای ساز، آب میوه گیر</li>
+        <li>
+          <Link href={"/wash-machine"}>ماشین لباسشویی</Link>
+        </li>
+        <li>
+          <Link href={"/dish-washer"}>ماشین ظرفشویی</Link>
+        </li>
+        <li>
+          <Link href={"/coffee-maker"}>قهوه و چای ساز، آب میوه گیر</Link>
+        </li>
         <li>اجاق گاز</li>
         <li>مایکروویو، ماکروفر</li>
-        <li>جاروبرقی</li>
+        <li>
+          <Link href={"/vacuum"}>جاروبرقی</Link>
+        </li>
       </ul>
     </div>
   );
